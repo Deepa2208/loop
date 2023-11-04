@@ -1,0 +1,187 @@
+/*#include<stdio.h>
+int main()
+{
+    int mon,tue,wed,thurs,fri,sat,sun;
+    scanf("%d%d%d%d%d%d%d",&mon,&tue,&wed,&thurs,&fri,&sat,&sun);
+    int a,b,c,d,e,f,g,h,if,kl;
+    if(mon<=8)
+    {
+        a=mon*100;
+        printf("%d",a);
+    }
+    else
+    {
+       a=mon*100+(mon-8)*15;
+       printf("%d",a);
+    }
+    if(tue<=8)
+    {
+        b=tue*100;
+        printf("%d",b);
+    }
+    else
+    {
+       b=tue*100+(tue-8)*15;
+       printf("%d",b);
+    }
+    if(wed<=8)
+    {
+        c=wed*100;
+        printf("%d",c);
+    }
+    else
+    {
+       c=wed*100+(wed-8)*15;
+       printf("%d",c);
+    }
+    if(thurs<=8)
+    {
+        d=thurs*100;
+        printf("%d",d);
+    }
+    else
+    {
+       d=thurs*100+(thurs-8)*15;
+       printf("%d",e);
+    }
+    if(fri<=8)
+    {
+        e=fri*100;
+        printf("%d",e);
+    }
+    else
+    {
+       e=fri*100+(fri-8)*15;
+       printf("%d",e);
+    }
+    if(sat<=8)
+    {
+        f=sat*100;
+        ij=f+(f*50/100);
+        printf("%d",if);
+    }
+    else
+    {
+
+    }
+}
+
+#include<stdio.h>
+int main()
+{
+    int age,yr,sal,arr,schol,atten;
+    printf("age:",age);
+    scanf("%d",&age);
+    printf("year:",yr);
+    scanf("%d",&yr);
+    printf("salary:",sal);
+    scanf("%d",&sal);
+    printf("arrear:",a);
+
+    #include<stdio.h>
+    int main()
+    {
+        int i,num,sum=0;
+        printf("enter the positive number:",num);
+        scanf("%d",&num);
+        for(i=1;i<=num;i++)
+        {
+            sum=sum+i;
+        }
+        printf("%d",sum);
+        return 0;
+    }
+
+    #include<stdio.h>
+    int main()
+    {
+        int i,num,sum=0;
+        printf("enter the number:",num);
+        scanf("%d",&num);
+        for(i=1;i<=num;i++)
+        {
+            if(i%2==1)
+            {
+                sum=sum+i;
+            }
+        }
+        printf("%d",sum);
+    }
+    #include<stdio.h>
+    int main(){
+        int num,sum=0;
+        printf("number is:",&num);
+        scanf("%d",&num);
+        while(num!=0){
+            sum=sum+num%10;
+            num=num/10;
+        }
+        printf("%d",sum);
+
+    }
+
+    #include<stdio.h>
+    int main()
+    {
+        int num,i;
+        printf("num:",num);
+        scanf("%d",&num);
+        for(i=1;i<=num;i++)
+        {
+            if(num%i==0)
+                printf("%d",i);
+        }
+    }
+
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("number:",num);
+    scanf("%d",&num);
+    int a=num;
+    int rev=0;
+    while(num>0){
+        rev=rev*10+num%10;
+        num=num/10;
+    }
+    if(a==rev){
+        printf("palinndrome");
+    }
+    else{
+        printf("not a palindrome");
+    }
+}
+
+#include<stdio.h>
+int main(){
+int n,m,i;
+scanf("%d%d",&m,&n);
+for(i=1;i<=m;i++)
+    {
+        printf("\n%d*%d=%d",i,n,i*n);
+    }
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+   int n,i,j;
+   scanf("%d",&n);
+   for(i=1;i<=n;i++)
+   {
+       
+       for(j=1;j<=n;j++)
+       {
+           printf("%d",i*j);
+       }
+       printf("\n");
+   }
+
+    return 0;
+}
+
+
+
